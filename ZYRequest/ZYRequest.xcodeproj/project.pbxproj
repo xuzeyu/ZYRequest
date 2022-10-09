@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD03D141279F992D000C2BC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD03D140279F992D000C2BC5 /* AppDelegate.m */; };
+		FD03D144279F992D000C2BC5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD03D143279F992D000C2BC5 /* SceneDelegate.m */; };
+		FD03D147279F992D000C2BC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD03D146279F992D000C2BC5 /* ViewController.m */; };
+		FD03D14A279F992D000C2BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD03D148279F992D000C2BC5 /* Main.storyboard */; };
+		FD03D14C279F992F000C2BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD03D14B279F992F000C2BC5 /* Assets.xcassets */; };
+		FD03D14F279F992F000C2BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD03D14D279F992F000C2BC5 /* LaunchScreen.storyboard */; };
+		FD03D152279F992F000C2BC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD03D151279F992F000C2BC5 /* main.m */; };
+		FD03D15C279F992F000C2BC5 /* ZYRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD03D15B279F992F000C2BC5 /* ZYRequestTests.m */; };
+		FD03D166279F992F000C2BC5 /* ZYRequestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD03D165279F992F000C2BC5 /* ZYRequestUITests.m */; };
+		FD03D168279F992F000C2BC5 /* ZYRequestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD03D167279F992F000C2BC5 /* ZYRequestUITestsLaunchTests.m */; };
+		FD03D177279F9982000C2BC5 /* ZYResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD03D176279F9982000C2BC5 /* ZYResponseModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD03D158279F992F000C2BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD03D134279F992D000C2BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD03D13B279F992D000C2BC5;
+			remoteInfo = ZYRequest;
+		};
+		FD03D162279F992F000C2BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD03D134279F992D000C2BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD03D13B279F992D000C2BC5;
+			remoteInfo = ZYRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD03D13C279F992D000C2BC5 /* ZYRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD03D13F279F992D000C2BC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD03D140279F992D000C2BC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD03D142279F992D000C2BC5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FD03D143279F992D000C2BC5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FD03D145279F992D000C2BC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD03D146279F992D000C2BC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD03D149279F992D000C2BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD03D14B279F992F000C2BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD03D14E279F992F000C2BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD03D150279F992F000C2BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD03D151279F992F000C2BC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD03D157279F992F000C2BC5 /* ZYRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD03D15B279F992F000C2BC5 /* ZYRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYRequestTests.m; sourceTree = "<group>"; };
+		FD03D161279F992F000C2BC5 /* ZYRequestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYRequestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD03D165279F992F000C2BC5 /* ZYRequestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYRequestUITests.m; sourceTree = "<group>"; };
+		FD03D167279F992F000C2BC5 /* ZYRequestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYRequestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		FD03D175279F9982000C2BC5 /* ZYResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYResponseModel.h; sourceTree = "<group>"; };
+		FD03D176279F9982000C2BC5 /* ZYResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYResponseModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD03D139279F992D000C2BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD03D154279F992F000C2BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD03D15E279F992F000C2BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD03D133279F992D000C2BC5 = {
+			isa = PBXGroup;
+			children = (
+				FD03D174279F994E000C2BC5 /* Classes */,
+				FD03D13E279F992D000C2BC5 /* ZYRequest */,
+				FD03D15A279F992F000C2BC5 /* ZYRequestTests */,
+				FD03D164279F992F000C2BC5 /* ZYRequestUITests */,
+				FD03D13D279F992D000C2BC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD03D13D279F992D000C2BC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D13C279F992D000C2BC5 /* ZYRequest.app */,
+				FD03D157279F992F000C2BC5 /* ZYRequestTests.xctest */,
+				FD03D161279F992F000C2BC5 /* ZYRequestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD03D13E279F992D000C2BC5 /* ZYRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D13F279F992D000C2BC5 /* AppDelegate.h */,
+				FD03D140279F992D000C2BC5 /* AppDelegate.m */,
+				FD03D142279F992D000C2BC5 /* SceneDelegate.h */,
+				FD03D143279F992D000C2BC5 /* SceneDelegate.m */,
+				FD03D145279F992D000C2BC5 /* ViewController.h */,
+				FD03D146279F992D000C2BC5 /* ViewController.m */,
+				FD03D148279F992D000C2BC5 /* Main.storyboard */,
+				FD03D14B279F992F000C2BC5 /* Assets.xcassets */,
+				FD03D14D279F992F000C2BC5 /* LaunchScreen.storyboard */,
+				FD03D150279F992F000C2BC5 /* Info.plist */,
+				FD03D151279F992F000C2BC5 /* main.m */,
+			);
+			path = ZYRequest;
+			sourceTree = "<group>";
+		};
+		FD03D15A279F992F000C2BC5 /* ZYRequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D15B279F992F000C2BC5 /* ZYRequestTests.m */,
+			);
+			path = ZYRequestTests;
+			sourceTree = "<group>";
+		};
+		FD03D164279F992F000C2BC5 /* ZYRequestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D165279F992F000C2BC5 /* ZYRequestUITests.m */,
+				FD03D167279F992F000C2BC5 /* ZYRequestUITestsLaunchTests.m */,
+			);
+			path = ZYRequestUITests;
+			sourceTree = "<group>";
+		};
+		FD03D174279F994E000C2BC5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD03D175279F9982000C2BC5 /* ZYResponseModel.h */,
+				FD03D176279F9982000C2BC5 /* ZYResponseModel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD03D13B279F992D000C2BC5 /* ZYRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD03D16B279F992F000C2BC5 /* Build configuration list for PBXNativeTarget "ZYRequest" */;
+			buildPhases = (
+				FD03D138279F992D000C2BC5 /* Sources */,
+				FD03D139279F992D000C2BC5 /* Frameworks */,
+				FD03D13A279F992D000C2BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYRequest;
+			productName = ZYRequest;
+			productReference = FD03D13C279F992D000C2BC5 /* ZYRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD03D156279F992F000C2BC5 /* ZYRequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD03D16E279F992F000C2BC5 /* Build configuration list for PBXNativeTarget "ZYRequestTests" */;
+			buildPhases = (
+				FD03D153279F992F000C2BC5 /* Sources */,
+				FD03D154279F992F000C2BC5 /* Frameworks */,
+				FD03D155279F992F000C2BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD03D159279F992F000C2BC5 /* PBXTargetDependency */,
+			);
+			name = ZYRequestTests;
+			productName = ZYRequestTests;
+			productReference = FD03D157279F992F000C2BC5 /* ZYRequestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD03D160279F992F000C2BC5 /* ZYRequestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD03D171279F992F000C2BC5 /* Build configuration list for PBXNativeTarget "ZYRequestUITests" */;
+			buildPhases = (
+				FD03D15D279F992F000C2BC5 /* Sources */,
+				FD03D15E279F992F000C2BC5 /* Frameworks */,
+				FD03D15F279F992F000C2BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD03D163279F992F000C2BC5 /* PBXTargetDependency */,
+			);
+			name = ZYRequestUITests;
+			productName = ZYRequestUITests;
+			productReference = FD03D161279F992F000C2BC5 /* ZYRequestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD03D134279F992D000C2BC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FD03D13B279F992D000C2BC5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FD03D156279F992F000C2BC5 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FD03D13B279F992D000C2BC5;
+					};
+					FD03D160279F992F000C2BC5 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FD03D13B279F992D000C2BC5;
+					};
+				};
+			};
+			buildConfigurationList = FD03D137279F992D000C2BC5 /* Build configuration list for PBXProject "ZYRequest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD03D133279F992D000C2BC5;
+			productRefGroup = FD03D13D279F992D000C2BC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD03D13B279F992D000C2BC5 /* ZYRequest */,
+				FD03D156279F992F000C2BC5 /* ZYRequestTests */,
+				FD03D160279F992F000C2BC5 /* ZYRequestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD03D13A279F992D000C2BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD03D14F279F992F000C2BC5 /* LaunchScreen.storyboard in Resources */,
+				FD03D14C279F992F000C2BC5 /* Assets.xcassets in Resources */,
+				FD03D14A279F992D000C2BC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD03D155279F992F000C2BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD03D15F279F992F000C2BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD03D138279F992D000C2BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD03D147279F992D000C2BC5 /* ViewController.m in Sources */,
+				FD03D141279F992D000C2BC5 /* AppDelegate.m in Sources */,
+				FD03D152279F992F000C2BC5 /* main.m in Sources */,
+				FD03D144279F992D000C2BC5 /* SceneDelegate.m in Sources */,
+				FD03D177279F9982000C2BC5 /* ZYResponseModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD03D153279F992F000C2BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD03D15C279F992F000C2BC5 /* ZYRequestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD03D15D279F992F000C2BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD03D166279F992F000C2BC5 /* ZYRequestUITests.m in Sources */,
+				FD03D168279F992F000C2BC5 /* ZYRequestUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD03D159279F992F000C2BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD03D13B279F992D000C2BC5 /* ZYRequest */;
+			targetProxy = FD03D158279F992F000C2BC5 /* PBXContainerItemProxy */;
+		};
+		FD03D163279F992F000C2BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD03D13B279F992D000C2BC5 /* ZYRequest */;
+			targetProxy = FD03D162279F992F000C2BC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD03D148279F992D000C2BC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD03D149279F992D000C2BC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD03D14D279F992F000C2BC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD03D14E279F992F000C2BC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD03D169279F992F000C2BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD03D16A279F992F000C2BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD03D16C279F992F000C2BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZYRequest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.ZYRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD03D16D279F992F000C2BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZYRequest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.ZYRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD03D16F279F992F000C2BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.ZYRequestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYRequest.app/ZYRequest";
+			};
+			name = Debug;
+		};
+		FD03D170279F992F000C2BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.ZYRequestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYRequest.app/ZYRequest";
+			};
+			name = Release;
+		};
+		FD03D172279F992F000C2BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.ZYRequestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYRequest;
+			};
+			name = Debug;
+		};
+		FD03D173279F992F000C2BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.ZYRequestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYRequest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD03D137279F992D000C2BC5 /* Build configuration list for PBXProject "ZYRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD03D169279F992F000C2BC5 /* Debug */,
+				FD03D16A279F992F000C2BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD03D16B279F992F000C2BC5 /* Build configuration list for PBXNativeTarget "ZYRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD03D16C279F992F000C2BC5 /* Debug */,
+				FD03D16D279F992F000C2BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD03D16E279F992F000C2BC5 /* Build configuration list for PBXNativeTarget "ZYRequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD03D16F279F992F000C2BC5 /* Debug */,
+				FD03D170279F992F000C2BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD03D171279F992F000C2BC5 /* Build configuration list for PBXNativeTarget "ZYRequestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD03D172279F992F000C2BC5 /* Debug */,
+				FD03D173279F992F000C2BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD03D134279F992D000C2BC5 /* Project object */;
+}
